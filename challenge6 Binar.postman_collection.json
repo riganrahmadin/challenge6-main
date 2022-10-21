@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"diyah@gmail.com\",\r\n    \"password\": \"qwerty\"\r\n} ",
+							"raw": "{\r\n    \"email\": \"super@gmail.com\",\r\n    \"password\": \"12345678\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -23,12 +23,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/superadmin/login",
+							"raw": "http://localhost:8080/superadmin/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
 								"superadmin",
 								"login"
@@ -45,7 +45,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6ImRpeWFoQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFFUYzduMEZFdmF1VnBZcXRhd0YwTXVIeFpZR1pUNm9oT1R5aU5WQzBNQklyeXl3dlFRSmdDIiwiY3JlYXRlZEF0IjoiMjAyMi0wNS0xM1QxNTowMzoxMy44NzdaIiwidXBkYXRlZEF0IjoiMjAyMi0wNS0xM1QxNTowMzoxMy44NzdaIn0sInJvbGUiOiJTdXBlcmFkbWluIiwiaWF0IjoxNjUyNDU1MTY3fQ.j5PwNWnI8I4kf99jWhEiPGI-Qw3zoBdrFSXqLuY3TXw",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6InN1cGVyQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJDZPVzh6Q1lnMm9FeVBBM2xUdWhqVC5lZTdBYmxYdW0wTWNpbDFueWlPNzQvUm9KQmxrLk1tIiwiY3JlYXRlZEF0IjoiMjAyMi0xMC0yMFQxNzo0MzoxMC4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMi0xMC0yMFQxNzo0MzoxMC4wMDBaIn0sInJvbGUiOiJTdXBlcmFkbWluIiwiaWF0IjoxNjY2MzM3ODg3fQ.cHBKNgE7oWbU4sN_IINnCnM90qL9gxj6tyMQN_L8ULw",
 									"type": "string"
 								}
 							]
@@ -54,7 +54,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"ayu@gmail.com\",\r\n    \"password\": \"aqwertyu\"\r\n} ",
+							"raw": "{\r\n    \"email\" : \"adminbaru@gmail.com\",\r\n    \"password\": \"1234512345\"\r\n} ",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -62,12 +62,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/superadmin/admin/add",
+							"raw": "http://localhost:8080/superadmin/admin/add",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
 								"superadmin",
 								"admin",
@@ -84,7 +84,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"fitriana@gmail.com\",\r\n    \"password\": \"aqwertyu\"\r\n} ",
+							"raw": "{\r\n    \"email\" : \"adminbaru@gmail.com\",\r\n    \"password\": \"1234512345\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -92,12 +92,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/admin/login",
+							"raw": "http://localhost:8080/admin/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
 								"admin",
 								"login"
@@ -119,7 +119,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6ImFuYUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRzUGlYc1Naa3pBM1ZzM0hRLlVwMDguU0ljeXQ3Ym54NnB5cmtzWHdVUlJkSHZCVWY3Tkp0RyIsImNyZWF0ZWRBdCI6IjIwMjItMDUtMTNUMTU6Mjg6MzAuMTY4WiIsInVwZGF0ZWRBdCI6IjIwMjItMDUtMTNUMTU6Mjg6MzAuMTY4WiJ9LCJpYXQiOjE2NTI0NTU3MzB9._K2v4Qb2zWT8OMLML4aegG0pwLizHNCoDy_8DMiowjw",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6InJpZ2FuIiwicGFzc3dvcmQiOiIkMmIkMTAkOVJLcUJRUkhOcFZ6Tjdyd2FmaVFFT2NqbXVBZEk5NlRZWGdxcDVKaVlZNW01SjdBQkRjS3kiLCJjcmVhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoiLCJ1cGRhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoifSwiaWF0IjoxNjY2MzQwNzcyfQ.6XzBAmpcTnTn5cOX-MfcJ1rxxTFXutKS1DhZnnmOJfE",
 									"type": "string"
 								}
 							]
@@ -128,7 +128,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Daihatsu\"\r\n}",
+							"raw": "{\r\n    \"name\": \"BWM 3\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -136,12 +136,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/cars",
+							"raw": "http://localhost:8080/cars",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
 								"cars"
 							]
@@ -151,28 +151,41 @@
 				},
 				{
 					"name": "get cars",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"auth": {
 							"type": "bearer",
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6ImRpeWFoQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFFUYzduMEZFdmF1VnBZcXRhd0YwTXVIeFpZR1pUNm9oT1R5aU5WQzBNQklyeXl3dlFRSmdDIiwiY3JlYXRlZEF0IjoiMjAyMi0wNS0xM1QxNTowMzoxMy44NzdaIiwidXBkYXRlZEF0IjoiMjAyMi0wNS0xM1QxNTowMzoxMy44NzdaIn0sInJvbGUiOiJTdXBlcmFkbWluIiwiaWF0IjoxNjUyNDU1MTY3fQ.j5PwNWnI8I4kf99jWhEiPGI-Qw3zoBdrFSXqLuY3TXw",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6InJpZ2FuIiwicGFzc3dvcmQiOiIkMmIkMTAkOVJLcUJRUkhOcFZ6Tjdyd2FmaVFFT2NqbXVBZEk5NlRZWGdxcDVKaVlZNW01SjdBQkRjS3kiLCJjcmVhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoiLCJ1cGRhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoifSwiaWF0IjoxNjY2MzQwNzcyfQ.6XzBAmpcTnTn5cOX-MfcJ1rxxTFXutKS1DhZnnmOJfE",
 									"type": "string"
 								}
 							]
 						},
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "http://localhost:8000/cars",
+							"raw": "http://localhost:8080/cars/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
-								"cars"
+								"cars",
+								""
 							]
 						}
 					},
@@ -186,7 +199,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyLCJlbWFpbCI6ImF5dUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRpZGJiNkFNbjRFR2dtSjM4NnZ2OTUuOG1EOGhMTGJVdTFEaG9tT3BaV1FXblNPWUxDa05oQyIsImNyZWF0ZWRBdCI6IjIwMjItMDUtMTNUMTU6MjA6NTcuMzIxWiIsInVwZGF0ZWRBdCI6IjIwMjItMDUtMTNUMTU6MjA6NTcuMzIyWiJ9LCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2NTI0NTUyNzF9.kxKgx0jhDIrLxIHNMNeDSUOWa97mf14-zRbzN9N-ZAI",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6InJpZ2FuIiwicGFzc3dvcmQiOiIkMmIkMTAkOVJLcUJRUkhOcFZ6Tjdyd2FmaVFFT2NqbXVBZEk5NlRZWGdxcDVKaVlZNW01SjdBQkRjS3kiLCJjcmVhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoiLCJ1cGRhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoifSwiaWF0IjoxNjY2MzQwNzcyfQ.6XzBAmpcTnTn5cOX-MfcJ1rxxTFXutKS1DhZnnmOJfE",
 									"type": "string"
 								}
 							]
@@ -194,12 +207,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8000/cars/2",
+							"raw": "http://localhost:8080/cars/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
 								"cars",
 								"2"
@@ -216,7 +229,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6ImRpeWFoQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFFUYzduMEZFdmF1VnBZcXRhd0YwTXVIeFpZR1pUNm9oT1R5aU5WQzBNQklyeXl3dlFRSmdDIiwiY3JlYXRlZEF0IjoiMjAyMi0wNS0xM1QxNTowMzoxMy44NzdaIiwidXBkYXRlZEF0IjoiMjAyMi0wNS0xM1QxNTowMzoxMy44NzdaIn0sInJvbGUiOiJTdXBlcmFkbWluIiwiaWF0IjoxNjUyNDU1MTY3fQ.j5PwNWnI8I4kf99jWhEiPGI-Qw3zoBdrFSXqLuY3TXw",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyLCJlbWFpbCI6ImFkbWluYmFydUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRxRU1XcVg0RHFXV2xXSjZVWVlXUXEuR0pZdEg0TzNUQWQ1QTh0OHduYWd5UHBUSGJYeHFsaSIsImNyZWF0ZWRBdCI6IjIwMjItMTAtMjFUMDg6MjM6NDIuMDAwWiIsInVwZGF0ZWRBdCI6IjIwMjItMTAtMjFUMDg6MjM6NDIuMDAwWiJ9LCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE2NjYzNDA2NDF9.9PCqViFPu1J0ZLhEv6_9rhiVYJFU-V6PBiRAgBycyxQ",
 									"type": "string"
 								}
 							]
@@ -233,12 +246,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/cars/2",
+							"raw": "http://localhost:8080/cars/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
 								"cars",
 								"2"
@@ -263,14 +276,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8000/cars",
+							"raw": "http://localhost:8080/cars/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8000",
+							"port": "8080",
 							"path": [
-								"cars"
+								"cars",
+								"2"
 							]
 						}
 					},
@@ -286,7 +300,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6ImZpdHJpYW5hQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJHd2VjJGajR3cWdVLms1QXlZRGdROGVUdHlHRFFEdDF3bENoZWE0VEtjdXJrNEhiSkVtTTl1IiwiY3JlYXRlZEF0IjoiMjAyMi0wNS0xM1QxNToyMDoyNy41MDFaIiwidXBkYXRlZEF0IjoiMjAyMi0wNS0xM1QxNToyMDoyNy41MDlaIn0sInJvbGUiOiJBZG1pbiIsImlhdCI6MTY1MjQ1NjA0N30.JPzO2hSnA3IATmKPFNKPs-jghs_gnubBm3WA3EVfAOs",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6InJpZ2FuIiwicGFzc3dvcmQiOiIkMmIkMTAkOVJLcUJRUkhOcFZ6Tjdyd2FmaVFFT2NqbXVBZEk5NlRZWGdxcDVKaVlZNW01SjdBQkRjS3kiLCJjcmVhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoiLCJ1cGRhdGVkQXQiOiIyMDIyLTEwLTIwVDE3OjUxOjAzLjAwMFoifSwiaWF0IjoxNjY2MzQwNzcyfQ.6XzBAmpcTnTn5cOX-MfcJ1rxxTFXutKS1DhZnnmOJfE",
 							"type": "string"
 						}
 					]
@@ -294,12 +308,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/user",
+					"raw": "http://localhost:8080/user",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8000",
+					"port": "8080",
 					"path": [
 						"user"
 					]
@@ -314,7 +328,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\" : \"ana@gmail.com\",\r\n    \"password\": \"aqwertyu\"\r\n} ",
+					"raw": "{\r\n    \"email\" : \"rigan12\",\r\n    \"password\": \"aqwertyu222\"\r\n} ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -322,12 +336,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/member/add",
+					"raw": "http://localhost:8080/member/add",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8000",
+					"port": "8080",
 					"path": [
 						"member",
 						"add"
@@ -343,7 +357,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\" : \"ana@gmail.com\",\r\n    \"password\": \"aqwertyu\"\r\n} ",
+					"raw": "{\r\n   \"email\" : \"rigan\",\r\n    \"password\": \"aqwertyu\"\r\n} ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -351,12 +365,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/member/login",
+					"raw": "http://localhost:8080/member/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8000",
+					"port": "8080",
 					"path": [
 						"member",
 						"login"
